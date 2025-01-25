@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Youth Touch DEMO";
+}
+
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #383C47;
+    box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+}
+#log-in-out , #logo , #user-basket{
+    width: 33%;
+    text-align: center;
+}
+#log-in-out > div{
+    display: flex;
+}
+#log-in-out {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+#log-out , #log-in {
+    
+    font-size: 25px;
+    padding: 5px 10px ;
+    cursor: pointer;
+    font-weight: 700;
+}
+ #log-out {
+     border: 1px solid #EF4123;
+   color:#EF4123;
+   border-radius: 10px;
+}
+#log-in{
+    color: #383C47;
+}
+#logo {
+    font-size: 80px;
+}
+#user-basket> img{
+    width: 50px;
+    cursor: pointer;
+}
+.sub-navbar{
+    margin-top: 100px;
+}
+.sub-navbar > .location{
+    margin:  0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 3px;
+    padding-top: 15px;
+    font-size: 35px;
+}
+.location > p {
+color: #EF4123;
+font-weight: bold;
+letter-spacing: 2.5px;
+cursor: pointer;
+}
+
+.search-box{
+    width: 100%;
+    background-color: #EEEEEE;
+    padding: 10px ;
+    text-align: center;
+    
+}
+
+.search-box .search-box-input{
+    width: 90%;
+}
+
+.search-box .search-box-btn{
+    background-color: #EF4123;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.search-box .search-box-input , .search-box .search-box-btn{
+    font-size: 30px;
+    border: none;
+    padding: 15px 10px;
+}
