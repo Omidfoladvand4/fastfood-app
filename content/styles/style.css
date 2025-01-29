@@ -231,3 +231,69 @@ cursor: pointer;
 .right-section > img{
     width: 80%;
 }
+
+.footer-header{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 8%;
+}
+.footer-header-title{
+    color: #383C47;
+    font-size: 40px;
+}
+.footer-header-paragraph{
+    color: black;
+    width: 50%;
+    font-size: 25px;
+    display: block;
+    margin: 1% auto;
+}
+.footer-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  background-color:#383C47 ;
+  padding: 25px 15px;
+}
+.footer-container .footer-socials img{
+    width: 150px;
+    cursor:pointer;
+}
+.footer-socials{
+    display: flex;
+}
+.footer-menu-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-menu{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.footer-menu-container:hover li{
+    opacity: 0.8;
+}
+.footer-menu-item{
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+}
+.footer-menu-item img{
+    width: 35px;
+}
+.footer-menu-item:hover{
+    opacity: 1 !important;
+    font-weight: 900;
+}
+.footer-menu-paragraph{
+    color: #D2E4D6;
+    width: 50%;
+}
+.footer-mid-section img{
+    width: 150px;
+}
