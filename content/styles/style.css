@@ -1,3 +1,7 @@
+@font-face {
+    font-family:"Youth Touch DEMO" ;
+    src: url(/fonts/YouthTouchDemoRegular-4VwY.ttf);
+}
 *{
     margin: 0;
     padding: 0;
