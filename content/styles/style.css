@@ -296,4 +296,10 @@ cursor: pointer;
 }
 .footer-mid-section img{
     width: 150px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.footer-mid-section img:hover{
+    transform: scale(1.1);
+    background-color: #EF4123;
 }
