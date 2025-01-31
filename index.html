@@ -6,6 +6,7 @@
     <title>Online Food ordering</title>
     <link rel="stylesheet" href="./content/styles/style.css">
     <link rel="icon" href="./images/logo-delino-new-en.svg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -27,93 +28,97 @@
             <i>in</i><p id="city">Tehran</p>
           </div>
     </div>
-    <div class="search-box">
-        <input class="search-box-input" type="text" placeholder="food - restaurants ....">
-        <button class="search-box-btn">Search Now</button>
-    </div>
+  <div data-aos="fade-left"></div>
 
+  <div data-aos="fade-right" data-aos-duration="2000">
     <header class="header">
         <img src="./images/main-image.jpg" alt="">
     </header>
+  </div>
 
-    <section class="categories">
-        <h1 class="categories-title">Popular Categories</h1>
-        <div class="categories-container">
-
-         <div class="category" data-category="Pizza">
-          <img class="category-imgage" src="./images/category-img-1.jpg" alt="Pizza">
-          <p class="category-title">Pizza</p>
-         </div>
-
-         <div class="category" data-category="Kebab">
-            <img class="category-imgage" src="./images/category-img-2.jpg" alt="Kebab">
-            <p class="category-title">Kebab</p>
-           </div>
-
-           <div class="category" data-category="Soup">
-            <img class="category-imgage" src="./images/category-img-3.jpg" alt="Soup">
-            <p class="category-title">Soup</p>
-           </div>
-
-           <div class="category" data-category="Sandwich">
-            <img class="category-imgage" src="./images/category-img-4.jpg" alt="Sandwich">
-            <p class="category-title">Sandwich</p>
-           </div>
-
-           <div class="category" data-category="PersianCosine">
-            <img class="category-imgage" src="./images/category-img-5.jpg" alt="Persian Cosine">
-            <p class="category-title">Persian Cosine</p>
-           </div>
-
-           <div class="category" data-category="Fried">
-            <img class="category-imgage" src="./images/category-img-6.jpg" alt="Fried">
-            <p class="category-title">Fried</p>
-           </div>
-
-           <div class="category" data-category="Pasta">
-            <img class="category-imgage" src="./images/category-img-7.jpg" alt="Pasta">
-            <p class="category-title">Pasta</p>
-           </div>
-
-           <div class="category" data-category="Salad">
-            <img class="category-imgage" src="./images/category-img-8.jpg" alt="Salad">
-            <p class="category-title">Salad</p>
-           </div>
-
-           <div class="category" data-category="Breakfast">
-            <img class="category-imgage" src="./images/category-img-9.jpg" alt="Breakfast">
-            <p class="category-title">Breakfast</p>
-           </div>
-
-           <div class="category" data-category="Steak">
-            <img class="category-imgage" src="./images/category-img-10.jpg" alt="Steak">
-            <p class="category-title">Steak</p>
-           </div>
-
-         
-
-        </div>
-    </section>
+     <div data-aos="fade-down" data-aos-duration="2900">
+        <section class="categories">
+            <h1 class="categories-title">Popular Categories</h1>
+            <div class="categories-container">
+    
+             <div class="category" data-category="Pizza">
+              <img class="category-imgage" src="./images/category-img-1.jpg" alt="Pizza">
+              <p class="category-title">Pizza</p>
+             </div>
+    
+             <div class="category" data-category="Kebab">
+                <img class="category-imgage" src="./images/category-img-2.jpg" alt="Kebab">
+                <p class="category-title">Kebab</p>
+               </div>
+    
+               <div class="category" data-category="Soup">
+                <img class="category-imgage" src="./images/category-img-3.jpg" alt="Soup">
+                <p class="category-title">Soup</p>
+               </div>
+    
+               <div class="category" data-category="Sandwich">
+                <img class="category-imgage" src="./images/category-img-4.jpg" alt="Sandwich">
+                <p class="category-title">Sandwich</p>
+               </div>
+    
+               <div class="category" data-category="PersianCosine">
+                <img class="category-imgage" src="./images/category-img-5.jpg" alt="Persian Cosine">
+                <p class="category-title">Persian Cosine</p>
+               </div>
+    
+               <div class="category" data-category="Fried">
+                <img class="category-imgage" src="./images/category-img-6.jpg" alt="Fried">
+                <p class="category-title">Fried</p>
+               </div>
+    
+               <div class="category" data-category="Pasta">
+                <img class="category-imgage" src="./images/category-img-7.jpg" alt="Pasta">
+                <p class="category-title">Pasta</p>
+               </div>
+    
+               <div class="category" data-category="Salad">
+                <img class="category-imgage" src="./images/category-img-8.jpg" alt="Salad">
+                <p class="category-title">Salad</p>
+               </div>
+    
+               <div class="category" data-category="Breakfast">
+                <img class="category-imgage" src="./images/category-img-9.jpg" alt="Breakfast">
+                <p class="category-title">Breakfast</p>
+               </div>
+    
+               <div class="category" data-category="Steak">
+                <img class="category-imgage" src="./images/category-img-10.jpg" alt="Steak">
+                <p class="category-title">Steak</p>
+               </div>
+    
+             
+    
+            </div>
+        </section>
+     </div>
     <section class="downloads-app-section">
-        <div class="left-section">
+        <div class="left-section" data-aos="flip-up" data-aos-duration="2500">
             <h1 class="left-section-title">Delino Mobile Application</h1>
             <p class="left-section-paragraph">
                 Enter your number and we'll text you download link on your cell phone.
             </p>
             <div class="send-link-for-phone-num">
-                    <input type="tel" placeholder="0912xxxxxxx"> <button>Send link </button>
+                    <input type="tel" placeholder="0912xxxxxxx">
+                     <button>Send link </button>
 
             </div>
-            <div class="left-section-download-apps">
-                <div class="app-item"><img src="./images/label-app-android-bazaar-en.png"></div>
-                <div class="app-item"><img src="./images/label-app-android-direct-en.png " alt=""></div>
-                <div class="app-item"><img src="./images/label-app-android-myket-en.png " alt=""></div>
-                <div class="app-item"><img src="./images/label-app-ios-anardoni-en.png " alt=""></div>
-                <div class="app-item"><img src="./images/label-app-ios-sibapp-en.png" alt=""></div>
-                <div class="app-item"><img src="./images/label-app-ios-sibirani-en.png " alt=""></div>
+            <div data-aos="flip-left">
+                <div class="left-section-download-apps">
+                    <div class="app-item"><img src="./images/label-app-android-bazaar-en.png"></div>
+                    <div class="app-item"><img src="./images/label-app-android-direct-en.png " alt=""></div>
+                    <div class="app-item"><img src="./images/label-app-android-myket-en.png " alt=""></div>
+                    <div class="app-item"><img src="./images/label-app-ios-anardoni-en.png " alt=""></div>
+                    <div class="app-item"><img src="./images/label-app-ios-sibapp-en.png" alt=""></div>
+                    <div class="app-item"><img src="./images/label-app-ios-sibirani-en.png " alt=""></div>
+                </div>
             </div>
         </div>
-        <div class="right-section">
+        <div class="right-section" data-aos="flip-right">
             <img src="./images/fig-iphone.png">
         </div>
     </section>
@@ -155,5 +160,9 @@
         </div>
     </footer>
 <script src="./content/scripts/app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
