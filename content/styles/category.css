@@ -182,3 +182,148 @@ main{
     transform: scale(1.1);
     background-color: #EF4123;
 }
+
+@media screen  and (max-width : 400px){
+
+    header .category-logo{
+        width: 70px;
+    }
+    header .user-basket{
+        width: 30px;
+    }
+    #back-btn{
+        padding: 5px 10px;
+        font-size: 25px;
+    }
+    #category-title{
+        display: block;
+        color: #EF4123;
+        margin: 5px auto;
+        font-size: 45px;
+    
+    }
+    .data-category{
+        flex-direction: column;
+    }
+    .data-category #category-description{
+        font-size: 16px;
+    }
+    .Branches{
+        font-size: 18px;
+        padding: 5px ;
+    }
+    .Branches-title{
+     font-size: 45px;
+    }
+    .Branches > div{
+        margin-left: 5px;
+        padding: 5px;
+    }
+    .footer-header-title{
+        font-size: 25px;
+    }
+    .footer-header-paragraph{
+        font-size: 18px;
+    }
+    
+
+    .footer-container{
+      padding: 15px 5px;
+      flex-direction: column;
+    }
+    .footer-menu-item{
+        font-size: 14px;
+    }
+    .footer-menu-item img{
+        width: 20px;
+    }
+  
+    .footer-menu-paragraph{
+        width: 80%;
+        margin: 20px;
+    }
+    .footer-mid-section img{
+        width: 100px;
+    }
+    .footer-container .footer-socials img{
+        width: 150px;
+    }
+    
+    
+}
+
+
+
+@media screen  and (max-width : 800px){
+    nav{
+        width: 100%;
+    }
+    header .category-logo{
+        width: 110px;
+    }
+    header .user-basket{
+        width: 60px;
+    }
+    #back-btn{
+        padding: 5px 10px;
+        font-size: 40px;
+    }
+    #category-title{
+        display: block;
+        color: #EF4123;
+        margin: 5px auto;
+        font-size: 55px;
+    
+    }
+    .data-category{
+        flex-direction: column;
+    }
+    .data-category #category-description{
+        font-size: 22px;
+    }
+    .Branches{
+        font-size: 22px;
+        padding: 5px ;
+    }
+    .Branches-title{
+     font-size: 45px;
+    }
+    .Branches > div{
+        margin-left: 5px;
+        padding: 5px;
+    }
+    .footer-header-title{
+        font-size: 30px;
+    }
+    .footer-header-paragraph{
+        width: 100%;
+        font-size: 20px;
+    }
+    
+
+    .footer-container{
+      padding: 15px 5px;
+      flex-direction: column;
+    }
+    .footer-menu{
+        width: 80%;
+    }
+    .footer-menu-item{
+        font-size: 18px;
+    }
+    .footer-menu-item img{
+        width: 25px;
+    }
+  
+    .footer-menu-paragraph{
+        width: 80%;
+        margin: 25px;
+    }
+    .footer-mid-section img{
+        width: 250px;
+    }
+    
+    .footer-container .footer-socials img{
+        width: 250px;
+    }
+}
