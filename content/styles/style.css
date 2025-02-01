@@ -88,13 +88,14 @@ cursor: pointer;
 }
 
 .search-box .search-box-input{
-    width: 90%;
+    width: 70%;
 }
 
 .search-box .search-box-btn{
     background-color: #EF4123;
     color: #ffffff;
     cursor: pointer;
+    width: 20%;
 }
 
 .search-box .search-box-input , .search-box .search-box-btn{
@@ -253,8 +254,8 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-around;
-  background-color:#383C47 ;
-  padding: 25px 15px;
+    background-color:#383C47 ;
+    padding: 25px 15px;
 }
 .footer-container .footer-socials img{
     width: 150px;
@@ -302,4 +303,185 @@ cursor: pointer;
 .footer-mid-section img:hover{
     transform: scale(1.1);
     background-color: #EF4123;
+}
+
+
+@media  screen and (max-width : 450px) {
+
+    #log-in , #log-out{
+        font-size: 20px;
+    }
+    #logo{
+        font-size: 45px;
+    }
+    #user-basket > img{
+        width: 40px;
+    } 
+    .sub-navbar{
+        margin-top: 60px;
+    }
+    .sub-navbar .location{
+        font-size: 28px;
+    }
+    .search-box .search-box-input , .search-box .search-box-btn{
+        font-size: 14px;
+        padding: 5px 4px;
+    }
+
+    .left-section-title{
+        font-size: 40px;
+    }
+    .left-section-paragraph{
+        font-size: 20px;
+    }
+    .send-link-for-phone-num{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .send-link-for-phone-num > input{
+        width: 80%;
+        padding: 5px 2px;
+    }
+    .send-link-for-phone-num > button{
+        width: 18%;
+        padding: 5px 2px;
+       font-size: 14px;
+    
+    }
+    .app-item{
+        width: 45%;
+    }
+    .right-section > img{
+        display: none;
+    }
+    .footer-menu-item{
+        font-size: 14px;
+    }
+    .footer-menu-item img{
+        width: 15px;
+    }
+    .footer-menu-paragraph{
+        width: 80%;
+        text-align: center;
+    }
+    .footer-mid-section img{
+        width: 100px;
+        margin-top: 20px;
+    }
+    .footer-container .footer-socials img{
+        width: 200px;
+    }
+
+}
+
+
+
+
+
+
+@media  screen and (max-width : 800px) {
+    .navbar{
+        width: 100%;
+        gap: 0;
+        padding: 0;
+    }
+    #log-in , #log-out{
+        font-size: 20px;
+    }
+    #logo{
+        font-size: 55px;
+    }
+    #user-basket > img{
+        width: 60px;
+    } 
+    .sub-navbar{
+        margin-top: 80px;
+    }
+    .sub-navbar .location{
+        font-size: 38px;
+    }
+    .search-box .search-box-input{
+        width: 70%;
+    }
+    .search-box .search-box-input , .search-box .search-box-btn{
+        font-size: 20px;
+        padding: 8px 7px;
+    }
+    .header > img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .categories-container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .category{
+        width: 49%;
+        border-radius: 10px;
+    }
+    .category img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .downloads-app-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-section{
+        width: 100%;
+    }
+    .left-section-title{
+        font-size: 50px;
+    }
+    .left-section-paragraph{
+        font-size: 25px;
+    }
+    .send-link-for-phone-num{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .send-link-for-phone-num > input{
+        width: 80%;
+        padding: 15px 12px;
+    }
+    .send-link-for-phone-num > button{
+        width: 18%;
+        padding: 15px 12px;
+       font-size: 18px;
+    
+    }
+    .app-item{
+        width: 49%;
+    }
+    .right-section > img{
+        display: none;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-menu{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .footer-menu-item{
+        font-size: 18px;
+    }
+    .footer-menu-item img{
+        width: 40px;
+    }
+    .footer-menu-paragraph{
+        width: 80%;
+        text-align: center;
+    }
+    .footer-mid-section img{
+        width: 150px;
+        margin: 45px 20px;
+    }
+    .footer-container .footer-socials img{
+        width: 300px;
+    }
+
 }
