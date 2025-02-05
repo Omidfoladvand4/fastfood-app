@@ -80,8 +80,8 @@ main{
 }
 .data-category #category-description{
      color: #eeeeee;
-     font-size: 23px;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 30px;
+     font-family: Youth Touch DEMO;
 }
 
 .Branches{
@@ -220,7 +220,7 @@ main{
         padding: 5px;
     }
     .footer-header-title{
-        font-size: 25px;
+        font-size: 28px;
     }
     .footer-header-paragraph{
         font-size: 18px;
@@ -239,14 +239,14 @@ main{
     }
   
     .footer-menu-paragraph{
-        width: 80%;
-        margin: 20px;
+        width: 100%;
+        text-align: center;
     }
-    .footer-mid-section img{
-        width: 100px;
+    .footer-mid-section {
+       display: none;
     }
     .footer-container .footer-socials img{
-        width: 150px;
+        width: 200px;
     }
     
     
@@ -306,10 +306,12 @@ main{
       flex-direction: column;
     }
     .footer-menu{
-        width: 80%;
+        width: 100%;
+        flex-wrap: wrap;
     }
     .footer-menu-item{
-        font-size: 18px;
+        padding: 2px 4px;
+        font-size: 14px;
     }
     .footer-menu-item img{
         width: 25px;
@@ -317,10 +319,12 @@ main{
   
     .footer-menu-paragraph{
         width: 80%;
-        margin: 25px;
+        margin: 25px auto;
     }
     .footer-mid-section img{
-        width: 250px;
+        width: 150px;
+        display: flex;
+        flex-direction: row;
     }
     
     .footer-container .footer-socials img{

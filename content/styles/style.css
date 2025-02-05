@@ -244,7 +244,7 @@ cursor: pointer;
 }
 .footer-header-paragraph{
     color: black;
-    width: 50%;
+    width: 100%;
     font-size: 25px;
     display: block;
     margin: 1% auto;
@@ -323,11 +323,13 @@ cursor: pointer;
     .sub-navbar .location{
         font-size: 28px;
     }
-    .search-box .search-box-input , .search-box .search-box-btn{
+    .search-box .search-box-input {
         font-size: 14px;
         padding: 5px 4px;
     }
-
+    .search-box .search-box-btn{
+        display: none;
+    }
     .left-section-title{
         font-size: 40px;
     }
@@ -344,10 +346,14 @@ cursor: pointer;
         padding: 5px 2px;
     }
     .send-link-for-phone-num > button{
-        width: 18%;
-        padding: 5px 2px;
-       font-size: 14px;
+    display: none;
     
+    }
+    .footer-header-title{
+        font-size: 28px;
+    }
+    .footer-header-paragraph{
+        font-size: 18px;
     }
     .app-item{
         width: 45%;
@@ -355,19 +361,18 @@ cursor: pointer;
     .right-section > img{
         display: none;
     }
-    .footer-menu-item{
-        font-size: 14px;
+    .footer-menu > li {
+        font-size: 16px;
     }
     .footer-menu-item img{
-        width: 15px;
+        display: none;
     }
     .footer-menu-paragraph{
-        width: 80%;
+        width: 100%;
         text-align: center;
     }
-    .footer-mid-section img{
-        width: 100px;
-        margin-top: 20px;
+    .footer-mid-section{
+       display: none;
     }
     .footer-container .footer-socials img{
         width: 200px;
@@ -473,7 +478,7 @@ cursor: pointer;
         width: 40px;
     }
     .footer-menu-paragraph{
-        width: 80%;
+        width: 100%;
         text-align: center;
     }
     .footer-mid-section img{
@@ -481,7 +486,7 @@ cursor: pointer;
         margin: 45px 20px;
     }
     .footer-container .footer-socials img{
-        width: 300px;
+        width: 200px;
     }
 
 }
